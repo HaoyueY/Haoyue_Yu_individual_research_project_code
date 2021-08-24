@@ -1,2 +1,2 @@
 # UCL_Dissertation
-The repository includes the code used in my dissertation
+The code should be run on UCL's HEP machine
