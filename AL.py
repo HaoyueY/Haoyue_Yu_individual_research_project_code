@@ -81,7 +81,7 @@ def run( N_query, X_train, y_train,df_cluster, clf,test_data,unlabeled,evaluatio
         for ii in query_index:
             wf=play_audio(ii,raw_data,audio_uri)
             IPython.display.display(Audio(wf, rate=44100))
-            label=int(input('label the segment you listened ( 1 for funny, -1 for not funny) : '))
+            label=int(input('label the segment you listened ( 1 for contains the emotion, -1 for not ) : '))
             X_train_update=X_train_update.append(unlabeled.iloc[ii,:], ignore_index=False)
             y_train_update=y_train_update.append(pd.Series(label,index=[ii]),ignore_index=False)
         # teach the model
