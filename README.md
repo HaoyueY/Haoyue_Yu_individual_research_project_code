@@ -8,7 +8,7 @@ Import the Spotify Podcast Dataset software and intall dependencies/src from: ht
 ## Modules
 This section list the necessary modules that are need to be loaded before implementation
 
-\item The python script read_data.py includes all of the functions needed to generate feature data.
+· The python script read_data.py includes all of the functions needed to generate feature data.
 The script generate_features.py is used to generate features data, the generated features are saved on the hep machine in the folder: '/unix/cdtdisspotify/haoyueyu/podcast-dataset/data/'
 AL.py is the script for all of the functions used in active learning
 
